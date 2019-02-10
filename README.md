@@ -1,5 +1,5 @@
 # Aqua
-AquaWebsite est le dépot du site d'Aqua, il est principalement alimenté par 3 comtrubuteurs :
-* @KuriPV
-* @SkyterStrike
-* @eloidrai
+**AquaWebsite** est le dépot du site d'Aqua, il est principalement alimenté par 3 contributeurs :
+* KuriPV
+* SkyterStrike
+* eloidrai
