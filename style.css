@@ -6,11 +6,11 @@ body {
 }
 
 header {
+    background-color: blue;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
-    background-color: blue; 
 }
 
 h1 {
@@ -85,4 +85,12 @@ h3 strong {
     margin: 4px;
     color: black;
     background-color: red;
+}
+#message {
+    visibility: hidden;
+    font-size: 18px;
+    background-color: cyan;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 1px;
 }
