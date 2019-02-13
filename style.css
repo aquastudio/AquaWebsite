@@ -1,3 +1,5 @@
+/*Général*/
+
 body {
     background-color: dodgerblue;
     margin: 0;
@@ -11,25 +13,31 @@ header {
     background-color: blue; 
 }
 
-h1{
+h1 {
     font-size: 4em;
     margin: 0;
     color: lightblue;
 }
+
+section {
+    padding: 15px;
+}
+
 h2
 {
     display: inline;
 }
 
+/*En-tête*/
 #logoheader {
     width: 8%;
     height: 8%;
 }
 
-#nav {
+#menu {
     display: flex;
     font-size: 1.2em;
-    margin: 0px 25px 0px 25px;
+    margin: 0;
     flex-direction: column;
     justify-content: space-around;
     list-style-type: none;
@@ -37,34 +45,44 @@ h2
     width: 160px;
 }
 
-#nav a {
+#menu a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 6px 16px;
+    margin: 3px;
     text-decoration: none;
     text-align: center;
 }
   
-#nav a:hover {
+#menu a:hover {
     background-color: deepskyblue;
     transform: scale(1.2);
     border-radius: 1px;
     color: white;
 }
 
-#apps{
+/*Contenu*/
+#apps {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-h3 strong{
+h3 strong {
     background-color: purple;
 }
 
-
-.latestapp{
-    background-color: darkblue;
+.app {
+    background-color: blueviolet;
     color: white;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 3px;
     border: 2px solid black;
+    box-shadow: 5px 5px 1px black;
+}
+
+.titreapp {
+    display: inline-block;
+    margin: 4px;
+    color: black;
+    background-color: red;
 }
