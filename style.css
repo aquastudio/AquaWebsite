@@ -63,9 +63,7 @@ h2
 
 /*Contenu*/
 #apps {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+    margin: 30px 10px;
 }
 h3 strong {
     background-color: purple;
